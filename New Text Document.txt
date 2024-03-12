@@ -1,0 +1,4 @@
+[[headers]]
+for = "C:\Users\tonyk\OneDrive\2023\portfolio-sept-2023\fonts"
+[headers.values]
+cache-control = 'public, max-age=31536000'
