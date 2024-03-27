@@ -1,497 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-   	  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-	  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-	  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-      <link rel="manifest" href="images/favicon/site.webmanifest">
-	  
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>TKodes</title>
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      
-	  <!--load all Font Awesome styles -->
-	  <link href="images/font-awesome/css/all.css" rel="stylesheet">
-      <link rel="stylesheet" href="main.css" />
-      <script defer src="script.js"></script>
-	  
-   </head>
-   <body>
-
-      <div class="toggle-btn">
-         <i class="fas fa-adjust"></i>
-      </div>
-      <header>
-         
-         <section class="home" id="home">
-
-            <div class="menu-bar">
-               <div class="logo"><a href="#">
+<head>
+   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+   <link rel="manifest" href="images/favicon/site.webmanifest">
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>TKodes</title>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!--load all Font Awesome styles -->
+   <link href="images/font-awesome/css/all.css" rel="stylesheet">
+   <link rel="stylesheet" href="main.css" />
+   <script defer src="script.js"></script>
+</head>
+<body>
+   <div class="toggle-btn">
+      <i class="fas fa-adjust"></i>
+   </div>
+   <header>
+      <section class="home" id="home">
+         <div class="menu-bar">
+            <div class="logo"><a href="#">
                   TK<i class="fa fa-code" aria-hidden="true"></i>
-                  <!-- <i class="fa fa-external-link-square" aria-hidden="true"></i> -->
-               </div></a>
-               <!-- &lt;/&gt; -->
-               <!-- Modals -->
-               <div class="modal" id="modal1">
-                  <div class="modal-header">
-                     <div class="title">Color Website</div>
-                     <button data-close-button class="close-button">
-                        &times;
-                     </button>
-                  </div>
-                  <div class="modal-body">
-                     <img src="images/gifColor2.gif" alt="" />
-                  </div>
+            </div></a>
+            <!-- &lt;/&gt; -->
+            <!-- Modals -->
+            <div class="modal" id="modal1">
+               <div class="modal-header">
+                  <div class="title">Color Website</div>
+                  <button data-close-button class="close-button">
+                     &times;
+                  </button>
                </div>
-               <div data-modal-target="#modal2"></div>
-               <div class="modal" id="modal2">
-                  <div class="modal-header">
-                     <div class="title">Trip Calculator</div>
-                     <button data-close-button class="close-button">
-                        &times;
-                     </button>
-                  </div>
-                  <div class="modal-body">
-                     <img src="images/gifTrip.gif" alt="" />
-                  </div>
-               </div>
-               <div data-modal-target="#modal3"></div>
-               <div class="modal" id="modal3">
-                  <div class="modal-header">
-                     <div class="title">React To Do List</div>
-                     <button data-close-button class="close-button">
-                        &times;
-                     </button>
-                  </div>
-                  <div class="modal-body">
-                     <img src="images/gifTodo3.gif" alt="" />
-                  </div>
-               </div>
-               <div data-modal-target="#modal4"></div>
-               <div class="modal" id="modal4">
-                  <div class="modal-header">
-                     <div class="title">Program Management Tool</div>
-                     <button data-close-button class="close-button">
-                        &times;
-                     </button>
-                  </div>
-                  <div class="modal-body">
-                     <img src="images/gifSS4.gif" alt="" />
-                  </div>
-               </div>
-               <div id="overlay"></div>
-
-               <div class="menu-toggler">
-                  <div class="bar half start"></div>
-                  <div class="bar"></div>
-                  <div class="bar half end"></div>
+               <div class="modal-body">
+                  <img src="images/gifColor2.gif" alt="" />
                </div>
             </div>
-
-            <nav class="top-nav">
-               <ul class="nav-list">
-                  <li>
-                     <a href="#home" class="nav-link">Home</a>
-                  </li>
-                  <li>
-                     <a href="#about" class="nav-link">About</a>
-                  </li>
-                  <li>
-                     <a href="#services" class="nav-link">Services</a>
-                  </li>
-                  <li>
-                     <a href="#portfolio" class="nav-link">Portfolio</a>
-                  </li>
-                  <!-- <li>
-                     <a href="#experience" class="nav-link">Experience</a>
-                  </li> -->
-                  <li>
-                     <a href="#contact" class="nav-link">Contact</a>
-                  </li>
-               </ul>
-            </nav>
-            <div class="landing-text">
-               <h1>TKodes</h1>
-               <h6>Web and App Design</h6>
-            </div>
-         </section>
-      </header>
-
-      <section class="about" id="about">
-         <div class="container">
-            <div class="profile-img" data-aos="fade" data-aos-delay="300">
-               <!-- <img src="images/face-min-resized-min-facial-good3.jpg" alt="" /> -->
-               <img src="images/face2crop2_.jpg" alt="" />
-            </div>
-            <div class="about-details" data-aos="fade" data-aos-delay="600">
-               <div class="about-heading">
-                  <h1>About</h1>
-                  <h6>Myself</h6>
+            <div data-modal-target="#modal2"></div>
+            <div class="modal" id="modal2">
+               <div class="modal-header">
+                  <div class="title">Trip Calculator</div>
+                  <button data-close-button class="close-button">
+                     &times;
+                  </button>
                </div>
-				<p>
-               
+               <div class="modal-body">
+                  <img src="images/gifTrip.gif" alt="" />
+               </div>
+            </div>
+            <div data-modal-target="#modal3"></div>
+            <div class="modal" id="modal3">
+               <div class="modal-header">
+                  <div class="title">React To Do List</div>
+                  <button data-close-button class="close-button">
+                     &times;
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="images/gifTodo3.gif" alt="" />
+               </div>
+            </div>
+            <div data-modal-target="#modal4"></div>
+            <div class="modal" id="modal4">
+               <div class="modal-header">
+                  <div class="title">Program Management Tool</div>
+                  <button data-close-button class="close-button">
+                     &times;
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <img src="images/gifSS4.gif" alt="" />
+               </div>
+            </div>
+            <div id="overlay"></div>
 
-​My journey in (k)oding began when I enrolled in online certifications.
-
-I then pursued tech graduate certificates at Conestoga and Seneca colleges, which furthered my understanding of secure web design and test-driven development.
-
-Currently, I am seeking opportunities to apply these skills and obtain an opportunity to support the front end of a leading organization. 
-
-
-				</p>
+            <div class="menu-toggler">
+               <div class="bar half start"></div>
+               <div class="bar"></div>
+               <div class="bar half end"></div>
             </div>
          </div>
+         <nav class="top-nav">
+            <ul class="nav-list">
+               <li>
+                  <a href="#home" class="nav-link">Home</a>
+               </li>
+               <li>
+                  <a href="#about" class="nav-link">About</a>
+               </li>
+               <li>
+                  <a href="#services" class="nav-link">Services</a>
+               </li>
+               <li>
+                  <a href="#portfolio" class="nav-link">Portfolio</a>
+               </li>
+               <li>
+                  <a href="#contact" class="nav-link">Contact</a>
+               </li>
+            </ul>
+         </nav>
+         <div class="landing-text">
+            <h1>TKodes</h1>
+            <h6>Web and App Design</h6>
+         </div>
       </section>
-
-      <section class="services" id="services">
-         <div class="container">
-            <div class="section-heading">
-               <h1>Services</h1>
-               <h6>What I can do for you</h6>
+   </header>
+   <section class="about" id="about">
+      <div class="container">
+         <div class="profile-img" data-aos="fade" data-aos-delay="300">
+            <img src="images/face2crop2_.jpg" alt="" />
+         </div>
+         <div class="about-details" data-aos="fade" data-aos-delay="600">
+            <div class="about-heading">
+               <h1>About</h1>
+               <h6>Myself</h6>
             </div>
-            <div class="my-skills">
-               <div class="skill" data-aos="fade-in" data-aos-delay="300">
-                  <div class="icon-container">
+            <p>
+               ​My journey in (k)oding began when I enrolled in online certifications.
+
+               I then pursued tech graduate certificates at Conestoga and Seneca colleges, which furthered my
+               understanding of secure web design and test-driven development.
+
+               Currently, I am seeking opportunities to apply these skills and obtain an opportunity to support the
+               front end of a leading organization.
+            </p>
+         </div>
+      </div>
+   </section>
+   <section class="services" id="services">
+      <div class="container">
+         <div class="section-heading">
+            <h1>Services</h1>
+            <h6>What I can do for you</h6>
+         </div>
+         <div class="my-skills">
+            <div class="skill" data-aos="fade-in" data-aos-delay="300">
+               <div class="icon-container">
                   <i class="fas fa-layer-group"></i>
-				  
-                  </div>
-                  <h1>Web Design</h1>
-                  <p>
-                     System design principles
-                  </p>
                </div>
-               <div class="skill" data-aos="fade-in" data-aos-delay="600">
-                  <div class="icon-container">
-                     <i class="fas fa-code"></i>
-                  </div>
-                  <h1>Full Stack Development</h1>
-                  <p>
-                     <!-- Front/back end for web apps, as required  -->
-					 Object oriented design
-                  </p>
-               </div>
+               <h1>Web Design</h1>
+               <p>
+                  System design principles
+               </p>
             </div>
-
-            <div class="my-tools">
-               <div class="tool">
-                  <img src="images/logoWeb.png" alt="" />
+            <div class="skill" data-aos="fade-in" data-aos-delay="600">
+               <div class="icon-container">
+                  <i class="fas fa-code"></i>
                </div>
-               <div class="tool">
-                  <img src="images/logoAspnet.png" alt="" />
-               </div>
-               <div class="tool" id="logoNode">
-                  <img src="images/logoNode.png" alt="" />
-               </div>
-               <div class="tool">
-                  <img src="images/logoSqlserver.png" alt="" />
-               </div>
-               <div class="tool">
-                  <img src="images/logoBootstrap.png" alt="" />
-               </div>
-               <div class="tool">
-                  <img src="images/logoReact.png" alt="" />
-               </div>
+               <h1>Full Stack Development</h1>
+               <p>
+                  <!-- Front/back end for web apps, as required  -->
+                  Object oriented design
+               </p>
             </div>
          </div>
-      </section>
-
-      <section class="portfolio" id="portfolio">
-         <div class="container">
-            <div class="section-heading">
-               <h1>Portfolio</h1>
-               <h6>Some of my recent work</h6>
+         <div class="my-tools">
+            <div class="tool">
+               <img src="images/logoWeb.png" alt="" />
             </div>
-            <!-- Start of cards -->
-            <div class="portfolio-item">
-               <div
-                  class="portfolio-img has-margin-right"
-                  data-aos="fade"
-                  data-aos-delay="300"
-               >
-                  <!-- Card 1 -->
-                  <div class="flip-card">
-                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <div
-                              class="portfolio-description"
-                              data-aos="fade"
-                              data-aos-delay="600"
-                           >
-                              <div class="flip-card-front-bar">
-                                 <aside class="left">
-                                    <img
-                                       src="images/gifPalette.gif"
-                                       height="40px"
-                                       width="80px"
-                                       alt=""
-                                    />
-                                 </aside>
-                                 <main class="right">
-                                    <h1>
-                                       Color<br />
-                                       Website
-                                    </h1>
-                                 </main>
-                              </div>
-                              <p>
-                                 <br />
-                                 HTML/CSS <br />
-                                 Bootstrap<br />
-                                 Node.js
-                              </p>
+            <div class="tool">
+               <img src="images/logoAspnet.png" alt="" />
+            </div>
+            <div class="tool" id="logoNode">
+               <img src="images/logoNode.png" alt="" />
+            </div>
+            <div class="tool">
+               <img src="images/logoSqlserver.png" alt="" />
+            </div>
+            <div class="tool">
+               <img src="images/logoBootstrap.png" alt="" />
+            </div>
+            <div class="tool">
+               <img src="images/logoReact.png" alt="" />
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="portfolio" id="portfolio">
+      <div class="container">
+         <div class="section-heading">
+            <h1>Portfolio</h1>
+            <h6>Some of my recent work</h6>
+         </div>
+         <!-- Start of cards -->
+         <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right" data-aos="fade" data-aos-delay="300">
+               <!-- Card 1 -->
+               <div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                        <div class="portfolio-description" data-aos="fade" data-aos-delay="600">
+                           <div class="flip-card-front-bar">
+                              <aside class="left">
+                                 <img src="images/gifPalette.gif" height="40px" width="80px" alt="" />
+                              </aside>
+                              <main class="right">
+                                 <h1>
+                                    Color<br />
+                                    Website
+                                 </h1>
+                              </main>
                            </div>
+                           <p>
+                              <br />
+                              Ajax <br />
+                              Bootstrap<br />
+                              Node.js
+                           </p>
                         </div>
-                        <!-- Back of card -->
-                        <div class="flip-card-back">
-                           <div class="object-and-details">
-                              <img
-                                 src="images/imgColor.jpg"
-                                 style="width: 200px; height: 120px"
-                                 loading="lazy"
-                              />
-                           </div>
-                           <div class="back-social-media">
-                              <a href="https://github.com/tkodes/color-css-html-site.git" target="_blank"><i class="fab fa-github-square"></i></a>
-                              <a data-modal-target="#modal1">
-                                 <i class="fas fa-external-link-square-alt"></i
-                              ></a>
-                           </div>
+                     </div>
+                     <!-- Back of card -->
+                     <div class="flip-card-back">
+                        <div class="object-and-details">
+                           <img src="images/imgColor.jpg" style="width: 200px; height: 120px" loading="lazy" />
+                        </div>
+                        <div class="back-social-media">
+                           <a href="https://github.com/tkodes/color-css-html-site.git" target="_blank"><i
+                                 class="fab fa-github-square"></i></a>
+                           <a data-modal-target="#modal1">
+                              <i class="fas fa-external-link-square-alt"></i></a>
                         </div>
                      </div>
                   </div>
                </div>
-               <div
-                  class="portfolio-img has-margin-right"
-                  data-aos="fade"
-                  data-aos-delay="300"
-               >
-                  <!-- Card 2 -->
-                  <div class="flip-card">
-                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <div
-                              class="portfolio-description"
-                              data-aos="fade"
-                              data-aos-delay="600"
-                           >
-                              <div class="flip-card-front-bar">
-                                 <aside class="left">
-                                    <img
-                                       src="images/gifCalc.gif"
-                                       height="40px"
-                                       width="80px"
-                                       alt=""
-                                    />
-                                 </aside>
-                                 <main class="right">
-                                    <h1>
-                                       Trip<br />
-                                       Calculator
-                                    </h1>
-                                 </main>
-                              </div>
-                              <p>
-                                 <br />
-                                 Python <br />
-                                 HTML/CSS <br />
-                                 XAML<br />
-                              </p>
+            </div>
+            <div class="portfolio-img has-margin-right" data-aos="fade" data-aos-delay="300">
+               <!-- Card 2 -->
+               <div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                        <div class="portfolio-description" data-aos="fade" data-aos-delay="600">
+                           <div class="flip-card-front-bar">
+                              <aside class="left">
+                                 <img src="images/gifCalc.gif" height="40px" width="80px" alt="" />
+                              </aside>
+                              <main class="right">
+                                 <h1>
+                                    Trip<br />
+                                    Calculator
+                                 </h1>
+                              </main>
                            </div>
+                           <p>
+                              <br />
+                              C# <br />
+                              HTML/CSS <br />
+                              XAML<br />
+                           </p>
                         </div>
-                        <!-- Back of card -->
-                        <div class="flip-card-back">
-                           <div class="object-and-details">
-                              <img
-                                 src="images/imgTrip.jpg"
-                                 style="width: 200px; height: 120px"
-                                 loading="lazy"
-                              />
-
-                           </div>
-                           <div class="back-social-media">
-                              <a href="https://github.com/tkodes/trip-cost-calculator.git" target="_blank"><i class="fab fa-github-square"></i></a>
-                              <a data-modal-target="#modal2">
-                                 <i class="fas fa-external-link-square-alt"></i
-                              ></a>
-                           </div>
+                     </div>
+                     <!-- Back of card -->
+                     <div class="flip-card-back">
+                        <div class="object-and-details">
+                           <img src="images/imgTrip.jpg" style="width: 200px; height: 120px" loading="lazy" />
+                        </div>
+                        <div class="back-social-media">
+                           <a href="https://github.com/tkodes/trip-cost-calculator.git" target="_blank"><i
+                                 class="fab fa-github-square"></i></a>
+                           <a data-modal-target="#modal2">
+                              <i class="fas fa-external-link-square-alt"></i></a>
                         </div>
                      </div>
                   </div>
                </div>
-               <div
-                  class="portfolio-img has-margin-right"
-                  data-aos="fade"
-                  data-aos-delay="300"
-               >
-                  <!-- Card 3 -->
-                  <div class="flip-card">
-                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <div
-                              class="portfolio-description"
-                              data-aos="fade"
-                              data-aos-delay="600"
-                           >
-                              <div class="flip-card-front-bar">
-                                 <aside class="left">
-                                    <img
-                                       src="images/gifCheck.gif"
-                                       height="40px"
-                                       width="80px"
-                                       alt=""
-                                    />
-                                 </aside>
-                                 <main class="right">
-                                    <h1>
-                                       To-do<br />
-                                       List App
-                                    </h1>
-                                 </main>
-                              </div>
-                              <p>
-                                 <br />
-                                 React <br />
-                                 JavaScript <br />
-                                 Node.js
-                              </p>
+            </div>
+            <div class="portfolio-img has-margin-right" data-aos="fade" data-aos-delay="300">
+               <!-- Card 3 -->
+               <div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                        <div class="portfolio-description" data-aos="fade" data-aos-delay="600">
+                           <div class="flip-card-front-bar">
+                              <aside class="left">
+                                 <img src="images/gifCheck.gif" height="40px" width="80px" alt="" />
+                              </aside>
+                              <main class="right">
+                                 <h1>
+                                    To-do<br />
+                                    List App
+                                 </h1>
+                              </main>
                            </div>
+                           <p>
+                              <br />
+                              React <br />
+                              JavaScript <br />
+                              Node.js
+                           </p>
                         </div>
-                        <!-- Back of card -->
-                        <div class="flip-card-back">
-                           <div class="object-and-details">
-                              <img
-                                 src="images/imgTodo.jpg"
-                                 style="width: 200px; height: 120px"
-                                 loading="lazy"
-                              />
-                              
-                           </div>
-                           <div class="back-social-media">
-                              <a href="https://github.com/tkodes/react-todo-list.git" target="_blank"><i class="fab fa-github-square"></i></a>
-                              <a data-modal-target="#modal3">
-                                 <i class="fas fa-external-link-square-alt"></i
-                              ></a>
-                           </div>
+                     </div>
+                     <!-- Back of card -->
+                     <div class="flip-card-back">
+                        <div class="object-and-details">
+                           <img src="images/imgTodo.jpg" style="width: 200px; height: 120px" loading="lazy" />
+                        </div>
+                        <div class="back-social-media">
+                           <a href="https://github.com/tkodes/react-todo-list.git" target="_blank"><i
+                                 class="fab fa-github-square"></i></a>
+                           <a data-modal-target="#modal3">
+                              <i class="fas fa-external-link-square-alt"></i></a>
                         </div>
                      </div>
                   </div>
                </div>
-               <div
-                  class="portfolio-img has-margin-right"
-                  data-aos="fade"
-                  data-aos-delay="300"
-               >
-                  <!-- Card 4 -->
-                  <div class="flip-card">
-                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                           <div
-                              class="portfolio-description"
-                              data-aos="fade"
-                              data-aos-delay="600"
-                           >
-                              <div class="flip-card-front-bar">
-                                 <aside class="left">
-                                    <img
-                                       src="images/gifGears.gif"
-                                       height="40px"
-                                       width="80px"
-                                       alt=""
-                                    />
-                                 </aside>
-                                 <main class="right">
-                                    <h1>
-                                       Database<br />
-                                       App
-                                    </h1>
-                                 </main>
-                              </div>
-
-                              <p>
-                                 <br />
-                                 C# (ASP.NET) <br />
-                                 JavaScript <br />
-                                 HTML/CSS<br />
-                              </p>
+            </div>
+            <div class="portfolio-img has-margin-right" data-aos="fade" data-aos-delay="300">
+               <!-- Card 4 -->
+               <div class="flip-card">
+                  <div class="flip-card-inner">
+                     <div class="flip-card-front">
+                        <div class="portfolio-description" data-aos="fade" data-aos-delay="600">
+                           <div class="flip-card-front-bar">
+                              <aside class="left">
+                                 <img src="images/gifGears.gif" height="40px" width="80px" alt="" />
+                              </aside>
+                              <main class="right">
+                                 <h1>
+                                    Database<br />
+                                    App
+                                 </h1>
+                              </main>
                            </div>
+                           <p>
+                              <br />
+                              C# (ASP.NET) <br />
+                              JavaScript <br />
+                              HTML/CSS<br />
+                           </p>
                         </div>
-                        <!-- Back of card -->
-                        <div class="flip-card-back">
-                           <div class="object-and-details">
-                              <img
-                                 src="images/imgSS.jpg"
-                                 style="width: 200; height: 120"
-                                 loading="lazy"
-                              />
-                              <div class="back-social-media">
-                                 <a href="https://github.com/tkodes/college-capstone-project.git" target="_blank"><i class="fab fa-github-square"></i></a>
-                                 <a data-modal-target="#modal4">
-                                    <i class="fas fa-external-link-square-alt"></i
-                                 ></a>
-                              </div>
+                     </div>
+                     <!-- Back of card -->
+                     <div class="flip-card-back">
+                        <div class="object-and-details">
+                           <img src="images/imgSS.jpg" style="width: 200; height: 120" loading="lazy" />
+                           <div class="back-social-media">
+                              <a href="https://github.com/tkodes/college-capstone-project.git" target="_blank"><i
+                                    class="fab fa-github-square"></i></a>
+                              <a data-modal-target="#modal4">
+                                 <i class="fas fa-external-link-square-alt"></i></a>
+                           </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </section>
-
-      <section class="contact" id="contact">
-         <div class="container">
-            <div class="section-heading">
-               <h1>Contact</h1>
-               <h6>Let's work together</h6>
-            </div>
-            <p class="info">Tony Kwak</p>
-            <!-- <p class="info">+ 1 905 550 6456</p> -->
-            <p class="info">kwaktony@outlook.com</p>
-
-            <div class="social-media">
-               <ul class="nav-list">
-                  <li>
-                     <a href="https://github.com/tkodes" class="icon-link" target="_blank">
-                        <i class="fab fa-github-square"></i>
-                     </a>
-                  </li>
-					  <li>
-						 <a href="http://linkedin.com/in/tonykwak" class="icon-link" target="_blank">
-							<i class="fab fa-linkedin"></i>
-						 </a>
-					  </li>
-				  <!-- <li> -->
-					  <!-- <a href="http://linkedin.com/in/tonykwak" class="icon-link" target="_blank" onclick="return false;"> -->
-						<!-- <i class="fab fa-linkedin"></i> -->
-					  <!-- </a> -->
-					<!-- </li> -->
-                  <li>
-                     <a href="mailto:kwaktony@outlook.com" class="icon-link">
-                        <i class="fas fa-envelope-square"></i>
-                        <!-- <i -->
-                           <!-- class="fa-external-link-square" -->
-                           <!-- aria-hidden="true" -->
-                        <!-- ></i> -->
-                     </a>
-                  </li>
-               </ul>
-            </div>
+   </section>
+   <section class="contact" id="contact">
+      <div class="container">
+         <div class="section-heading">
+            <h1>Contact</h1>
+            <h6>Let's work together</h6>
          </div>
-      </section>
-      <footer class="copyright">
-         <a href="#home">
-			<div class="up" id="up">
-               <!-- <i class="fas fa-chevron-up"></i> -->
-			   <i class="fa-solid fa-angles-up"></i>
-            </div>
-         </a>
-    
-
-         <p>&copy; 2022 TKodes</p>
-      </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script src="main.js"></script>
-   </body>
+         <p class="info">Tony Kwak</p>
+         <p class="info">kwaktony@outlook.com</p>
+         <div class="social-media">
+            <ul class="nav-list">
+               <li>
+                  <a href="https://github.com/tkodes" class="icon-link" target="_blank">
+                     <i class="fab fa-github-square"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="http://linkedin.com/in/tonykwak" class="icon-link" target="_blank">
+                     <i class="fab fa-linkedin"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="mailto:kwaktony@outlook.com" class="icon-link">
+                     <i class="fas fa-envelope-square"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+   <footer class="copyright">
+      <a href="#home">
+         <div class="up" id="up">
+            <!-- <i class="fas fa-chevron-up"></i> -->
+            <i class="fa-solid fa-angles-up"></i>
+         </div>
+      </a>
+      <p>&copy; 2022 TKodes</p>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script src="main.js"></script>
+</body>
 </html>
-
